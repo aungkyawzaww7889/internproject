@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin:0;
+    overflow: hidden;
+}
+
+
+.container{
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.form-group label{
+    display: flex;
+    margin: 10px 0;
+}
+
+.form-group .form-control{
+    width: 100%;
+    outline: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn{
+    width: 100%;
+    background-color: skyblue;
+    border:none;
+
+    margin: 10px 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.loginbtn{
+    background-color: rgb(122, 179, 201);
+}
